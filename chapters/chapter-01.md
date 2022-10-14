@@ -37,9 +37,20 @@ Centralised SCV tend to be client-server and are loosely based on the idea that 
 
 > GIT is **decentralised**.
 
+This means that the usage philosophy is completely different with `git`.  Each developer has a complete copy of the repository they are working on, on their own PC. At some time changes are merged from developers when git is used to push changes to a shared server.
 
+Typically this shared server is [gitub](https://github.com) but it could be any git compatible shared server.
+
+```
+ANECDOTE: 
+```
 
 ---
 References:
 * Centralised VCS Systems: [Microsoft Visual SourceSafe](https://en.wikipedia.org/wiki/Microsoft_Visual_SourceSafe), [SVN-Apache Subversion](https://subversion.apache.org/)
 * Distributed VCS Systems: [mercurial](https://www.mercurial-scm.org/about), [git](https://github.com/git)
+
+---
+[MIT Licensed](LICENSE) and prepared for Varsity College by [Cyber-Mint (Pty) Ltd](https://www.cyber-mint.com)<br>
+TeamFu &trade; is a trademark of Cyber-Mint (Pty) Ltd.<br>
+&copy; Copyright 2022, Cyber-Mint (Pty) Ltd.  
