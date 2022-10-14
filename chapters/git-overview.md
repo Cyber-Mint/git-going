@@ -16,10 +16,16 @@ You will need to setup a few things to get git working on your machine.
 
 If you have not already created an account on github, then [this guide will show you how to create an account.](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account)
 
+> `git bash` is a useful & consistent way to access git on your windows pc.
+
 If you don't have git installed locally, then [this guide will show you how to do this.](https://www.atlassian.com/git/tutorials/install-git)
 
 ### Generate SSH Keys
-It is possible to download source code from a repository as a compressed zip file, or using HTTPS, or using SSH. 
+
+> Windows 10 has had a built-in OpenSSH client since the April 2018 update. Windows 11 also comes with this feature built-in.
+
+It is possible to download source code from a repository as a compressed zip file, or using HTTPS, or using SSH.
+
 In my experience SSH is the most stable and the most performant.
 In order to use SSH, you must have an SSH key pair generated on your machine and you must associate the public key with your github account.
 Here are the basic instructions:
