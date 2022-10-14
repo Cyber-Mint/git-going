@@ -1,4 +1,4 @@
-# Git Cheatsheet
+# Git Overview
 This a quick introduction to git and the common commands that you are most likely to need on a day-to-day basis.
 
 ## Git
@@ -137,13 +137,15 @@ Mistakes happen to all of us. The following commands describe common undo comman
 | `git reset [commit]` | Undoes all commits after `[commit]`, preserving changes locally |
 | `git reset --hard [commit]` | Discards all history and changes back to the specified commit |
 
+---
+
 ### References
-[Atlassian git cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+* [Atlassian git cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+* [Another git cheatsheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
 
-[Another git cheatsheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
+---
 
-------
-[Readme](../README.md) | [Session 1](s01e01.md)
+> [Home](../README.md) | [Chapter 1](chapter-01.md)| Chapter 2 | Chapter 3 | Exercises 1 | Exercises 2 | 
 
 ---
 [MIT Licensed](LICENSE) and prepared for Varsity College by [Cyber-Mint (Pty) Ltd](https://www.cyber-mint.com)<br>
