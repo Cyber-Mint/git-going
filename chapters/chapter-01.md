@@ -2,7 +2,7 @@
 
 ## 2005, April 7th
 
-When Linus Torvalds made his initial commit of Git's code on April 7th 2005, he supplied the commit message:
+When [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) made his initial commit of Git's code on April 7th 2005, he supplied the commit message:
 
 ```
 Initial revision of "git", the information manager from hell
@@ -53,4 +53,4 @@ References:
 ---
 [MIT Licensed](LICENSE) and prepared for Varsity College by [Cyber-Mint (Pty) Ltd](https://www.cyber-mint.com)<br>
 TeamFu &trade; is a trademark of Cyber-Mint (Pty) Ltd.<br>
-&copy; Copyright 2022, Cyber-Mint (Pty) Ltd.  
+&copy; Copyright 2022, Cyber-Mint (Pty) Ltd.
