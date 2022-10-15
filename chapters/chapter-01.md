@@ -1,4 +1,4 @@
-# GIT
+# GIT basics
 
 ## 2005, April 7th
 
@@ -33,11 +33,11 @@ contents efficiently.
 
 Version Control Systems before `git` came along were typically centralised systems into which you checked in and checked our your code.  Over the past several decades there have been many [popular source code versioning systems](https://www.softwaretestinghelp.com/version-control-software/) and they generally fall into two types, centralised and decentralised. 
 
-Centralised SCV tend to be client-server and are loosely based on the idea that no two developers work on the same file at the same time.  This  requires every team to be synchronised and coordinated when checking in and checking out code.
+Centralised VCS tend to be client-server and are loosely based on the idea that no two developers should work on the same file at the same time.  This  requires every team to be synchronised and coordinated when *checking in* and *checking out* code.
 
 > GIT is **decentralised**.
 
-This means that the usage philosophy is completely different with `git`.  Each developer has a complete copy of the repository they are working on, on their own PC. At some time changes are merged from developers when git is used to push changes to a shared server.
+Since Git is decentralised, this means that the usage philosophy is completely different with `git`.  Each developer has a complete copy of the repository they are working on, on their local PC. Therefore, from time to time changes need to be merged from developers when git is used to push changes to a shared server.
 
 Typically this shared server is [gitub](https://github.com) but it could be any git compatible shared server.
 
@@ -59,10 +59,28 @@ Two main advantages of using Git at software development:
 
 Git has become the globally preferred SCV tool because of it's:
 
-    * Speed
-    * Scalability, and
-    * being free and open source
+    * fast and tiny footprint
+    * scalability, 
+    * free and open source
+    * easy branching
+    * easily trace contribution
+    * implicit backup
 ```
+
+---
+## Getting Started
+
+With just a few steps we will have our first repo up and running:
+* `git init` to inilialise our working directory.  This is the root of folder of your project.
+* `git add .` to add all our files to the staging area.
+* `git commit -m "Initial Commit"` to create our initial commit, and move out files from the staging area and store the changes permanents in our repo.
+
+
+
+
+
+
+
 
 ---
 References:<br>
