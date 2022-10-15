@@ -3,7 +3,7 @@
 > A repo with git teaching &amp; learning material
 
 * [Chapter 1](./chapters/chapter-01.md) - Git basics
-* Chapter 2 - Git concepts explained
+* [Chapter 2](./chapters/chapter-02.md) - Git concepts explained
 * Chapter 3 - Github & best practices
 * Chapter 4 - Git flow
 * [Chapter 5](./chapters/chapter-05.md) - Advanced Git
