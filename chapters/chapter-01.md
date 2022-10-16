@@ -226,11 +226,32 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 ![first-repo](../images/first-repo.png)
 
+### Some useful commands
+
+| **Git Command** | **Use** |
+| ------------------------ | ----------------------------------------------- |
+| `git pull` | pull upstream changes to files in your repo |
+| `git fetch` | fetch lists of commits from origin |
+| `git branch`| display the branches and which *branch is active |
+| `git branch [branch-name]` | creates a new branch with name of `[branch-name]` |
+| `git checkout [branch-name]` | switches to an existing branch |
+| `git checkout -b [branch-name]` | creates a branch and switch to it |
+| `git remote show origin` | shows remote and branch tracking |
+| `git log` | lists commits as per the log |
+| `git log --graph` | shows a graph of commits, merges etc |
+| `git push --set-upstream origin master` | pushes the local master to track master on github |
+| `main` vs `master` | `master` is the original name for the master branch, `main` is a political correct version without neo colonial embarrassment. Newer documentation refers to `main`. |
+| `git merge [branch-name]` | merges `[branch-name] into your current branch |
+
+
+
+
 
 
 
 > [Exercise 1](./exercise-01.md) : initialise a repo, add files, create branches, check differences
 
+# Branches, 
 
 ---
 References:<br>

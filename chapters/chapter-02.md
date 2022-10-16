@@ -1,6 +1,6 @@
-# Git concepts explained
+# Git under the hood
 
-## Under the hood
+## Git uses a hidden folder
 When you create a new project and initialize a Git repo using `git init`, a hiden folder is created called `.git` which has all the git magic inside.
 
 ```
@@ -16,6 +16,8 @@ drwxrwxr-x  2 andrew andrew 4096 Oct 14 12:43 images/
 ```
 
 In addition to the `.git` folder we may add a `.gitignore` to list the files and file patterns we don't want Git to track while working in this folder.  Github has some best practice examples of `.gitignore` files here: `https://github.com/github/gitignore`
+
+
 
 
 ---
