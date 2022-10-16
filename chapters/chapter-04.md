@@ -1,5 +1,13 @@
 # Github best practices
 
+* **branch names** - Naming your branches in a consist way such as using the project management tool `{ticket#}-{ticket-name}` means it is easy to do branch maintenance and reduces overall cognitive load for other developers.
+* **repo README.md** - a must have, short and clear. Use a `docs/` folder for all other project documentation and hyperlink these in a meaningful way.
+* **branch rules** - set up branch rules in github to enforce PRs on `master` and otehr important long lived branches, such as `BETA` or `development`.
+* **PR rules** - set up rules to enforce at least one reviewer, preferably, two (a) code review by another developer and (b) sign off by tester
+* **DELETE merged branches** - with teh exception of long-lived branches, all merged branches should be deleted.  Be careful when a merge must happen to both a `master` and for example a `BETA` branch, not to delete until both are merged correctly.
+* **meaningful commit messages** - ensure that all commit messages are short but meaningful, to enable easy viewing of the git logs.
+* **
+
 
 ---
 [MIT Licensed](LICENSE) and prepared for Varsity College by [Cyber-Mint (Pty) Ltd](https://www.cyber-mint.com)<br>

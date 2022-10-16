@@ -21,8 +21,14 @@ Reference: `https://www.atlassian.com/git/tutorials/undoing-changes/git-reset`
 ### git reset vs git restore
 `git restore` is like a simplified `git reset` for undoing changes and reversing files back to a previous state. Example, having somehow broken/deleted `Makefile` in my current branch, I could `git restore --source master Makefile` to restore it from the `master` branch.
 
+## squashing commits
 
-> [Exercise 5](./exercise-05.md) : makes changes, use `git reflog` and `git reset` to move HEAD around and see effects.
+
+## rebasing
+
+
+
+> [Exercise 4](./exercise-04.md) : makes changes, use `git reflog` and `git reset` to move HEAD around and see effects.
 
 
 ---
