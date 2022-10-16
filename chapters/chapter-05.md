@@ -27,9 +27,11 @@ Reference: `https://www.atlassian.com/git/tutorials/undoing-changes/git-reset`
 `git restore` is like a simplified `git reset` for undoing changes and reversing files back to a previous state. Example, having somehow broken/deleted `Makefile` in my current branch, I could `git restore --source master Makefile` to restore it from the `master` branch.
 
 ## squashing commits
+`https://www.javatpoint.com/git-squash`
 
 
 ## rebasing & cherry picking
+`https://www.javatpoint.com/git-rebase`
 
 
 ## reverting
@@ -42,6 +44,11 @@ Reference: `https://www.atlassian.com/git/tutorials/undoing-changes/git-reset`
 
 ##  signed commits with GPG
 `https://www.freecodecamp.org/news/what-is-commit-signing-in-git/`
+
+
+## working with remote repos
+`https://www.javatpoint.com/git-remote`
+
 
 ---
 
