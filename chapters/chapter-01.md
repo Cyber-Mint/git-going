@@ -147,7 +147,8 @@ Lets create our first file in our personal wiki with `touch README.md` and using
 With just a few steps we will have our first repo up and running:
 * login to Github and create an empty repo called `ever-wiki` without `.gitignore` or `README` files.  Add a repo description - `A wiki of everything I am learning` for completeness.
 
-![git-workflow](../images/git%20-%20workflow.png)
+![first-repo](../images/first-repo.png)
+
 
 Now locally back on our PC:
 * `git init` to initialise our working directory.  This is in the root folder of your project.
@@ -225,8 +226,8 @@ To github.com:Bank-Builder/ww.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 ```
-
-![first-repo](../images/first-repo.png)
+So this is what we have done:
+![git-workflow](../images/git%20-%20workflow.png)
 
 ### Some useful commands
 
