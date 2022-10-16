@@ -252,6 +252,17 @@ We may add a `.gitignore` to list the files and file patterns we don't want Git 
 # Branches
 It is common practice not to work on the `master` branch but to rather work on a **feature branch** dedicated to achieving one task/feature.
 
+This approach makes merging changes more manageable especially when multiple people are working on the same project simultaneously.
+
+To really get a feel for branches lets create two branches `001-update-README` and `002-add-useful-links` both from `master as follows :
+```
+git checkout -b 001-update-README
+git checkout - b 002-add-useful-links
+```
+This will leave us with two local branches, and still on the `002` branch.
+Now Lest add the following to the bottom of the 
+
+
 > [Exercise 2](./exercise-02.md) : start using branches
 
 ---
