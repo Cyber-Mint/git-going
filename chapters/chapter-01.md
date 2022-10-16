@@ -268,6 +268,13 @@ Reference:
 and push it upstream `git push --set-upstream origin 002-add-useful-links`.
 We will then need to create a pull request on github for our branch and approve and merge it into our master branch.
 
+Several things become evident:
+* PR's require approval
+* once merged a feature branch may (most cases should) be deleted
+* changing to `master` branch locally requires a `git pull` to update it in sync with the origin
+* the other branch `002` is now behind `master` and may be brought up to date with `master` by performing a `git merge master`
+
+
 
 
 
