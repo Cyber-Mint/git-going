@@ -244,14 +244,15 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 | `git merge [branch-name]` | merges `[branch-name] into your current branch |
 
 
+We may add a `.gitignore` to list the files and file patterns we don't want Git to track while working in this folder.  Github has some best practice examples of `.gitignore` files here: `https://github.com/github/gitignore`
 
 
+> [Exercise 1](./exercise-01.md) : initialise a repo, add files
 
+# Branches
+It is common practice not to work on the `master` branch but to rather work on a **feature branch** dedicated to achieving one task/feature.
 
-
-> [Exercise 1](./exercise-01.md) : initialise a repo, add files, create branches, check differences
-
-# Branches, 
+> [Exercise 2](./exercise-02.md) : start using branches
 
 ---
 References:<br>
