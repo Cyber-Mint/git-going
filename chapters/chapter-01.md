@@ -257,24 +257,23 @@ This approach makes merging changes more manageable especially when multiple peo
 To really get a feel for branches lets create two branches `001-update-README` and `002-add-useful-links` both from `master as follows :
 ```
 git checkout -b 001-update-README
+# make any small change to README.md 
+git push --set-upstream origin 001-update-README
+
 git checkout -b 002-add-useful-links
+# add a different small change to README.md
 ```
 This will leave us with two local branches, and still on the `002` branch.
-Now Lest add a useful reference following to the bottom of one of our README.md, for example
-```
-Reference:
-* https://www.javatpoint.com/git
-```
-and push it upstream `git push --set-upstream origin 002-add-useful-links`.
-We will then need to create a pull request on github for our branch and approve and merge it into our master branch.
+Now let us add a useful reference following to the bottom of one of our README.md, and push it upstream `git push --set-upstream origin 002-add-useful-links`.
+
+We will then need to create a pull request on github for our `002` branch and approve and merge it into our master branch.
 
 Several things become evident:
 * PR's require approval
-* once merged a feature branch may (most cases should) be deleted
-* changing to `master` branch locally requires a `git pull` to update it in sync with the origin
-* the other branch `002` is now behind `master` and may be brought up to date with `master` by performing a `git merge master`
-
-
+* once merged a feature branch may (in most cases should) be deleted
+* changing to `master` branch locally requires a `git pull` to update it in sync with the server upstream
+* the other branch `001` is now behind `master` and may be brought up to date with `master` by performing a `git merge master`
+* notice how github shows you if your feature branch is ahead or behind the default `master` branch
 
 
 
