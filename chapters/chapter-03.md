@@ -1,9 +1,11 @@
 # GitFlow
 
-```
-This model was conceived in 2010, now more than 10 years ago, and not very long after Git itself came into being. In those 10 years, git-flow (the branching model laid out in this article) has become hugely popular in many a software team to the point where people have started treating it like a standard of sorts — but unfortunately also as a dogma or panacea. 
-- 2020
-```
+&ensp;&ensp;*"This model was conceived in 2010, now more than 10 years ago, and not very long after
+Git itself came into being. In those 10 years, git-flow (the branching model laid out in this article) has become hugely popular in many a software team to the point where people have started treating it like a standard of sorts — but unfortunately also as a dogma or panacea."*
+
+\- 2020, Vincent Driessen
+
+
 > `https://nvie.com/posts/a-successful-git-branching-model/`<br>
 
 ![vincent driessen](https://nvie.com/img/nvie-small@2x.jpg) <br>

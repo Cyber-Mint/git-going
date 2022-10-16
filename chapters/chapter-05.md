@@ -24,9 +24,21 @@ Reference: `https://www.atlassian.com/git/tutorials/undoing-changes/git-reset`
 ## squashing commits
 
 
-## rebasing
+## rebasing & cherry picking
 
 
+## reverting
+
+
+
+## forking & PR upstream
+`https://jarv.is/notes/how-to-pull-request-fork-github/`
+
+
+##  signed commits with GPG
+`https://www.freecodecamp.org/news/what-is-commit-signing-in-git/`
+
+---
 
 > [Exercise 4](./exercise-04.md) : makes changes, use `git reflog` and `git reset` to move HEAD around and see effects.
 
