@@ -68,18 +68,101 @@ Git has become the globally preferred SCV tool because of it's:
 ```
 
 ---
-## Getting Started
+# Getting Started
 
+## Installing Git
+
+> <br>[Install](https://git-scm.com/download/win) and run the **Git Bash** program if you are on Windows, and [Git Desktop](https://desktop.github.com/) if you are afraid of the terminal or <br><br>install with `sudo apt install git-all` on Linux, or <br><br>[download](https://git-scm.com/download/mac) and run the macOS installer on Mac..
+<br><br>
+
+
+Now, in the 'Git Bash' terminal we can confirm our installed version with `git --version`.
+
+But before using `git` we will first setup our ssh key with which we will access github, to commit and push our files. For teh rest of these chapters we will only refer to the CLI version of `git` on our local PC and `github` as the server we use.  [Gitlab](https://gitlab.com) is a robust alternative to `github` and worth have a look at in your own time.
+
+
+## Setting up ssh key(s)
+
+> These instructions are for Ubuntu but should work in a Git Bash shell on Windows or OSX equally well. You may setup more than one ssh key if you wish for different github accounts etc
+
+
+```
+cd .ssh
+ssh-keygen -t rsa -b 4096 -C "email@domain.co.za" -f id_student
+# Don't add a password if you are want to avoid entering your password on ervy commit.
+
+cat ~/.ssh/id_student.pub
+# copy the public key so we can paste into SSH keys section in github settings
+
+# private key part must have correct permissions
+chmod 400 ~/.ssh/id_student
+
+# list known identities
+ssh-add -l
+
+# if you key is not shown then run the ssh-agent and add your key
+eval "$(ssh-agent -s)"
+ssh-add id_private
+```
+
+> If you want to specify which key to use for which github account then you may utilise a `~/.ssh/config` , and some details of how to set this up may be found [here](https://www.digitalocean.com/community/tutorials/how-to-configure-custom-connection-options-for-your-ssh-client)
+
+
+## Setting up git & github config 
+> After registering on [Github](https://github.com) do the following on your local PC:
+
+```
+git config --global user.name "User Name"
+git config --global user.email "email@domain.co.za"
+git config --global color.ui auto
+git config -l
+
+# Test your github access 
+ssh -T git@github.com
+```
+
+Finally, now we are ready to git-going!
+
+### Creating our first repo locally
+```
+mkdir ever-wiki
+cd ever-wki
+```
+
+Lets create our first file in our personal wiki with `touch README.md` and using our favourite editor we can some [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) content.
+```
+# Ever-Wiki
+
+> This wiki is a forever wiki to make notes about all the things I learn and will need to refer back to in the future.
+
+---
+**References**:
+* [git-going](https://github.com/cyber-mint/git-going)
+
+---
+
+```
+
+### Git in action
 With just a few steps we will have our first repo up and running:
-* `git init` to inilialise our working directory.  This is the root of folder of your project.
+* login to Github and create a repo called `ever-wiki` without `.gitignore` or `README` files.
+
+Now locally back on our PC:
+* `git init` to initialise our working directory.  This is in the root of folder of your project.
 * `git add .` to add all our files to the staging area.
 * `git commit -m "Initial Commit"` to create our initial commit, and move out files from the staging area and store the changes permanents in our repo.
+* `git remote add origin git@github.com/{git-user-name}/ever-wiki.git`
+* `git push origin master`
+
+Now, lets switch to our [http://github.com/{git-user-name}/ever-wiki]() and take a look at what we have created....
 
 
 
 
 
 
+
+> [Exercises 1](./exercises-01.md) : initialise a repo, add files, create branches, check differences
 
 
 ---
