@@ -1,4 +1,8 @@
-# Exercises - Chapter 01
+# Exercises 01
+
+## Install git
+
+> Refer to [Chapter 1](./chapter-01.md)
 
 ## Create Team Wiki Project
 * break into teams of nor more than three (3) members per team!
@@ -7,7 +11,7 @@
 * add the other team members to that public repo
 * each team member add your public key to your team's github account
 * each team member clone this repo locally
-* each team member edit, add and push a small section to the wiki
+* each team member edit, add a small section to the wiki
 * each team member should include their github profile link at the bottom of the section they added
 
 For example:
@@ -15,31 +19,10 @@ For example:
 ---
 Contributed by : [Bank Builder](https://github.com/Bank-Builder)
 ```
+* each team member should successfully `git push` their changes to the server.
 
-> Time: 15 Minutes
 ---
-
-## Feature Branching, Hotfix branch and Pull Requests
-* one member register for free on [teamfu.tech](https://teamfu.tech) and create a project eg "Team Wiki".
-* invite and add the other team members to your project.
-* add a sprint eg "Sprint 02" to your project and add your tickets to this Sprint.
-* add a feature ticket for each team member to update/add a new section.
-* add one hotfix ticket to add/replace to a MIT [LICENSE](https://choosealicense.com/licenses/mit/) file 
-* each team member re-clone the "Team Wiki" repo 
-* each team member create a feature branch named after the ticket number of the task in teamfu.tech eg. `456-add_a_azure_section` to which they have been assigned.
-* add/modify the wiki as per your respective ticket
-* create a Pull Request (PR) and assign it another team member to approve. 
-* ensure that your branch is up to date with `master` before approving the PR
-* merge one feature branch, then the HOTFIX, then the other feature branches.
-* as a team review and merge each PR 
-
-> Time: 40 Minutes
----
-
-
-
-
-
+> Exercise Time: 15 Minutes
 
 
 ---

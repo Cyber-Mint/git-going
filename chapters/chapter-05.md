@@ -1,5 +1,7 @@
 # Advanced Git
 
+> **SELF STUDY**
+
 ## Run your own git server
 
 We are assuming you already have git installed locally and have already done an ssh-keygen etc.  For the purpose of this exercise I presume you have a user vagrant@remote.server and you use your id_rsa key to login to remote.server.
