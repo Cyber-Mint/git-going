@@ -16,7 +16,7 @@
 | Github & Best Practices | 10 min | Github and industry practices for successful source code management. |
 | | | |
 
-> TOTAL TIME : 4 hours<br>Lecture Time : 2 hr<br>Tutorial Time : 2<br>
+> TOTAL TIME : 4 hrs<br>Lecture Time : 2 hrs<br>Tutorial Time : 2 hrs<br>
 
 ---
 ## Table of Contents
@@ -41,7 +41,6 @@
 
 * [Git Overview](./chapters/git-overview.md) 
 ---
-![gitflow](https://datasift.github.io/gitflow/GitFlowHotfixBranch.png)
 
 ---
 [MIT Licensed](LICENSE) and prepared for Varsity College by [Cyber-Mint (Pty) Ltd](https://www.cyber-mint.com)<br>
