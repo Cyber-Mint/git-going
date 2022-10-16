@@ -1,6 +1,5 @@
-# git-going
+# *git-going*
 
-> A repo with git teaching &amp; learning material
 
 ## Lesson Plan
 
@@ -19,9 +18,7 @@
 
 > TOTAL TIME : 4 hours<br>Lecture Time : 2 hr<br>Tutorial Time : 2<br>
 
-
-
-
+---
 ## Table of Contents
 
 * [Chapter 1](./chapters/chapter-01.md) - Git basics
@@ -34,9 +31,9 @@
 ---
 ### Exercises
 * [Exercise 1](./chapters/exercises-01.md) - Setting up & basic Git
-* Exercise 2 - Hands On Git
-* Exercise 3 - Git flow for Team work
-* Exercise 4 - Advanced Git
+* [Exercise 2](./chapters/exercise-02.md) - Branching & merging
+* [Exercise 3](./chapters/exercise-03.md) - Git flow for Team work
+* [Exercise 4](./chapters/exercise-04.md) - Advanced Git
 
 > [Git Overview](./chapters/git-overview.md)
 ---
