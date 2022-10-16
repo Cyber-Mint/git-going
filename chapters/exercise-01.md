@@ -1,4 +1,4 @@
-# Exercises 01
+# Exercises 01 - Installation & basics
 
 ## Install git
 

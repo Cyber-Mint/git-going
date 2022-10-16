@@ -1,3 +1,5 @@
+# Exercise 3 - Git flow for Team work
+
 ## Git Flow - Feature Branching, Hotfix branch and Pull Requests
 * one member register for free on [teamfu.tech](https://teamfu.tech) and create a project eg "Team Wiki".
 * invite and add the other team members to your project.
