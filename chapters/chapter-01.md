@@ -265,7 +265,10 @@ Now Lest add a useful reference following to the bottom of one of our README.md,
 Reference:
 * https://www.javatpoint.com/git
 ```
-abd push it upstream `git push --set-upstream origin 002-add-useful-links`
+and push it upstream `git push --set-upstream origin 002-add-useful-links`.
+We will then need to create a pull request on github for our branch and approve and merge it into our master branch.
+
+
 
 
 > [Exercise 2](./exercise-02.md) : start using branches
