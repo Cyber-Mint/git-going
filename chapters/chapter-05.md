@@ -1,6 +1,11 @@
 # Advanced Git
 
-## Git Stash
+## git blame
+
+## viewing commit history in Github
+
+
+## git Stash
 
 Reference: `https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning#_git_stashing`
 

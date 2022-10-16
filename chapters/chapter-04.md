@@ -6,6 +6,9 @@
 * **PR rules** - set up rules to enforce at least one reviewer, preferably, two (a) code review by another developer and (b) sign off by tester
 * **DELETE merged branches** - with teh exception of long-lived branches, all merged branches should be deleted.  Be careful when a merge must happen to both a `master` and for example a `BETA` branch, not to delete until both are merged correctly.
 * **meaningful commit messages** - ensure that all commit messages are short but meaningful, to enable easy viewing of the git logs.
+* **commit early & often.Push less often but at least once a day.** - this means you make you commits chewable size chunks and by pushing at least once a day, possibly twice, no other developer eneds to wait for you if teyd epend in some way on your branch.
+* **always pull before pushing** - this ensures that your branch never diverges too far as to prevent it from being pushable. If you have local clashes with the git pull, try `git stash save && git pull && git stash pop`. 
+* **burn it down** - periodically `rm -rf local-repo/` and re-clone to get a clean setup.
 * **
 
 

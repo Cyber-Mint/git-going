@@ -227,7 +227,7 @@ To github.com:Bank-Builder/ww.git
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 ```
 So this is what we have done:
-![git-workflow](../images/git%20-%20workflow.png)
+![git-workflow](../images/git-workflow.png)
 
 ### Some useful commands
 
