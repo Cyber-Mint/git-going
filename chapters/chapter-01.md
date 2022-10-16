@@ -158,8 +158,73 @@ Now, lets switch to our [http://github.com/{git-user-name}/ever-wiki]() and take
 
 Now lets remove our project folder with `cd .. && rm -rf ever-wiki/` and see how cloning works.
 
-* `git 
+* `git clone git remote add origin git@github.com:{git-user-name}/ever-wiki.git` will recreate the folder `ever-wiki/` and "clone" our repo files locally again.
+* `cd ever-wiki/` and `ls -lsa` to take a look at our files - phew they are all back again!
 
+Lets make some changes to our repo and see how staging works:
+* `git status` will tell us some important things, like what branch we are on and what has changed, what might be staged etc...
+
+Lets make some changes to our repo and see how is is reflected:
+* add a folder called `devops`
+* add a file called `docker.md`
+* copy some content to get started
+
+```
+### Docker Cheat Sheet
+Break down of the docker run command:
+
+Example:  `docker run --rm -d -p 8080:80 --name web nginx`
+
+And you may open the web service in your browser at `localhost:8080` to see it running.
+
+To stop the container with SIGTERM `docker stop web`
+
+To stop the container with SIGKILL`docker kill web`
+```
+* add an entry in your `README.md` file to link to the `devops/docker.md` file.
+
+Now , lets run `git status` to see what is changed:
+```
+~/dev/ever-wiki$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	devops/
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
+Now lets stage the untracked files with `git add devops/docker.md` and check the status again:
+
+```
+~/dev/ww$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   devops/docker.md
+```
+Now, we can see that our file we added is staged, so lets add a commit message `git commit -m "added a devops section to our wiki"` and check the status again:
+
+```
+~/dev/ww$ git commit -m "added a devops section to our wiki"
+[master bee0286] added a devops section to our wiki
+ 1 file changed, 10 insertions(+)
+ create mode 100644 devops/docker.md
+
+```
+All that is left to do, is push our commit(s) to the server `git push -u origin master` :
+```
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 685 bytes | 685.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Bank-Builder/ww.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+```
+
+![first-repo](../images/first-repo.png)
 
 
 
