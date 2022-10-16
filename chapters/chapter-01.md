@@ -145,18 +145,20 @@ Lets create our first file in our personal wiki with `touch README.md` and using
 
 ### Git in action
 With just a few steps we will have our first repo up and running:
-* login to Github and create a repo called `ever-wiki` without `.gitignore` or `README` files.
+* login to Github and create an empty repo called `ever-wiki` without `.gitignore` or `README` files.  Add a repo description - `A wiki of everything I am learning` for completeness.
 
 Now locally back on our PC:
-* `git init` to initialise our working directory.  This is in the root of folder of your project.
+* `git init` to initialise our working directory.  This is in the root folder of your project.
 * `git add .` to add all our files to the staging area.
-* `git commit -m "Initial Commit"` to create our initial commit, and move out files from the staging area and store the changes permanents in our repo.
+* `git commit -m "Initial Commit"` to create our initial commit, and move out files from the staging area and store the changes permanently in our repo.
 * `git remote add origin git@github.com/{git-user-name}/ever-wiki.git`
 * `git push origin master`
 
 Now, lets switch to our [http://github.com/{git-user-name}/ever-wiki]() and take a look at what we have created....
 
+Now lets remove our project folder with `cd .. && rm -rf ever-wiki/` and see how cloning works.
 
+* `git 
 
 
 
