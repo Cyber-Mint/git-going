@@ -249,6 +249,8 @@ We may add a `.gitignore` to list the files and file patterns we don't want Git 
 
 > [Exercise 1](./exercise-01.md) : initialise a repo, add files
 
+<br>
+
 # Branches
 It is common practice not to work on the `master` branch but to rather work on a **feature branch** dedicated to achieving one task/feature.
 
@@ -272,12 +274,11 @@ Several things become evident:
 * PR's require approval
 * once merged a feature branch may (in most cases should) be deleted
 * changing to `master` branch locally requires a `git pull` to update it in sync with the server upstream
-* the other branch `001` is now behind `master` and may be brought up to date with `master` by performing a `git merge master`
+* the other branch `001` is now behind `master` and may be brought up to date with `master` by performing a `git merge master` and later dealing with any merge conflicts if there are any.
 * notice how github shows you if your feature branch is ahead or behind the default `master` branch
 
 
-
-> [Exercise 2](./exercise-02.md) : start using branches
+> [Exercise 2](./exercise-02.md) : start using feature branches, merge conflicts
 
 ---
 References:<br>
