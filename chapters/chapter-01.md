@@ -257,10 +257,15 @@ This approach makes merging changes more manageable especially when multiple peo
 To really get a feel for branches lets create two branches `001-update-README` and `002-add-useful-links` both from `master as follows :
 ```
 git checkout -b 001-update-README
-git checkout - b 002-add-useful-links
+git checkout -b 002-add-useful-links
 ```
 This will leave us with two local branches, and still on the `002` branch.
-Now Lest add the following to the bottom of the 
+Now Lest add a useful reference following to the bottom of one of our README.md, for example
+```
+Reference:
+* https://www.javatpoint.com/git
+```
+abd push it upstream `git push --set-upstream origin 002-add-useful-links`
 
 
 > [Exercise 2](./exercise-02.md) : start using branches
