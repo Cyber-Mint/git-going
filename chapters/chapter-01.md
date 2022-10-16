@@ -276,6 +276,8 @@ Several things become evident:
 * changing to `master` branch locally requires a `git pull` to update it in sync with the server upstream
 * the other branch `001` is now behind `master` and may be brought up to date with `master` by performing a `git merge master` and later dealing with any merge conflicts if there are any.
 * notice how github shows you if your feature branch is ahead or behind the default `master` branch
+* you can  easily get confused sorting out a merge conflict.  This will save you - `git merge --abort`
+
 
 
 > [Exercise 2](./exercise-02.md) : start using feature branches, merge conflicts

@@ -22,20 +22,24 @@
 ## Table of Contents
 
 * [Chapter 1](./chapters/chapter-01.md) - Git basics
-* [Chapter 2](./chapters/chapter-02.md) - Git under the hood**
+* [Chapter 2](./chapters/chapter-02.md) - Git under the hood <sup>++</sup>
 * [Chapter 3](./chapters/chapter-03.md) - Git flow
 * [Chapter 4](./chapters/chapter-04.md) - Github best practices
-* [Chapter 5](./chapters/chapter-05.md) - Advanced Git**
+* [Chapter 5](./chapters/chapter-05.md) - Advanced Git <sup>++</sup>
 
-** self-study
 ---
 ### Exercises
 * [Exercise 1](./chapters/exercises-01.md) - Installation & basics
 * [Exercise 2](./chapters/exercise-02.md) - Branching & merging
 * [Exercise 3](./chapters/exercise-03.md) - Git flow for Team work
-* [Exercise 4](./chapters/exercise-04.md) - Advanced Git
+* [Exercise 4](./chapters/exercise-04.md) - Advanced Git <sup>++</sup>
 
-> [Git Overview](./chapters/git-overview.md)
+<sup>++</sup> self-study
+
+---
+
+
+* [Git Overview](./chapters/git-overview.md) 
 ---
 ![gitflow](https://datasift.github.io/gitflow/GitFlowHotfixBranch.png)
 
