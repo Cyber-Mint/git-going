@@ -229,11 +229,12 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 
 
-> [Exercises 1](./exercises-01.md) : initialise a repo, add files, create branches, check differences
+> [Exercise 1](./exercise-01.md) : initialise a repo, add files, create branches, check differences
 
 
 ---
 References:<br>
+* [git overview](./git-overview.md)
 * [What is Git and Why is It So Important?](https://towardsdatascience.com/what-is-git-and-why-is-it-so-important-dce559b27833)
 * Centralised VCS Systems: [Microsoft Visual SourceSafe](https://en.wikipedia.org/wiki/Microsoft_Visual_SourceSafe), [SVN-Apache Subversion](https://subversion.apache.org/)
 * Distributed VCS Systems: [mercurial](https://www.mercurial-scm.org/about), [git](https://github.com/git)

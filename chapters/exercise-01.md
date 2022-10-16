@@ -20,6 +20,7 @@ For example:
 Contributed by : [Bank Builder](https://github.com/Bank-Builder)
 ```
 * each team member should successfully `git push` their changes to the server.
+* use `git log --graph --oneline --all` or `git log --graph` to see the commits pushed to your repo.
 
 ---
 > Exercise Time: 15 Minutes

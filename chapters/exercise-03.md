@@ -10,7 +10,8 @@
 * create a Pull Request (PR) and assign it another team member to approve. 
 * ensure that your branch is up to date with `master` before approving the PR
 * merge one feature branch, then the HOTFIX, then the other feature branches.
-* as a team review and merge each PR 
+* as a team review and merge each PR
+* use `git log --graph --oneline --all` or `git log --graph` to see the commits pushed to your repo.
 
 ---
 > Exercise Time: 40 Minutes

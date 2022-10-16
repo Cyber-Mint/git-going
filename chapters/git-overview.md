@@ -47,11 +47,11 @@ Click the `New SSH Key` and enter a friendly name for the key. Paste the content
 To test that your key is working correctly, try to clone a repo. That is copy a repo from Github to your local machine.
 E.g.
 ```bash
-git clone git@github.com:Cyber-Mint/devops-bootcamp.git
+git clone git@github.com:Cyber-Mint/git-going.git
 ```
 Note that this will create a folder in the directory where you were before running the git clone command. In order to view the code, simply change into the newly created folder. 
 ```bash
-cd devops-bootcamp
+cd git-going
 ls -l
 ```
 
@@ -151,8 +151,7 @@ Mistakes happen to all of us. The following commands describe common undo comman
 
 ---
 
-> [Home](../README.md) | [Chapter 1](chapter-01.md)| Chapter 2 | Chapter 3 | Exercises 1 | Exercises 2 | 
-
+> [Home](../README.md) 
 ---
 [MIT Licensed](LICENSE) and prepared for Varsity College by [Cyber-Mint (Pty) Ltd](https://www.cyber-mint.com)<br>
 [Teamfu](https://teamfu.tech) &trade; is a trademark of Cyber-Mint (Pty) Ltd.<br>

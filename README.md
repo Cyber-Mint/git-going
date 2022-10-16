@@ -9,7 +9,7 @@
 * [Chapter 5](./chapters/chapter-05.md) - Advanced Git
 ---
 ### Exercises
-* [Exercise 1](./chapters/exercises-01.md) - Setting up Git
+* [Exercise 1](./chapters/exercises-01.md) - Setting up & basic Git
 * Exercise 2 - Hands On Git
 * Exercise 3 - Git flow for Team work
 * Exercise 4 - Advanced Git
