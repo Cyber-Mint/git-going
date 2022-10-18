@@ -9,7 +9,7 @@
 * each generate an RSA ssh-key called `id_vc`
 * one of the team members create a Public repository with a default `README.md` file and a suitable `.gitignore` file from the available templates and an appropriate `LICENSE` file for your team project
 * add the other team members to that public repo
-* each team member add your public key to your team's github account
+* each team member add your public key to your ~~team's~~ github account
 * each team member clone this repo locally
 * each team member edit, add a small section to the wiki
 * each team member should include their github profile link at the bottom of the section they added
