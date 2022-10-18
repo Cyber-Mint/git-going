@@ -5,7 +5,7 @@
 > Refer to [Chapter 1](./chapter-01.md)
 
 ## Create Team Wiki Project
-* break into teams of nor more than three (3) members per team!
+* break into teams of not more than three (3) members per team!
 * each generate an RSA ssh-key called `id_vc`
 * one of the team members create a Public repository with a default `README.md` file and a suitable `.gitignore` file from the available templates and an appropriate `LICENSE` file for your team project
 * add the other team members to that public repo
