@@ -72,13 +72,15 @@ Git has become the globally preferred SCV tool because of it's:
 
 ## Installing Git
 
-> <br>[Install](https://git-scm.com/download/win) and run the **Git Bash** program if you are on Windows, and [Git Desktop](https://desktop.github.com/) if you are afraid of the terminal or <br><br>install with `sudo apt install git-all` on Linux, or <br><br>[download](https://git-scm.com/download/mac) and run the macOS installer on Mac..
+[Detailed instructions for Windows setup are available here](install_git_windows.md)
+
+> <br>[Install](https://git-scm.com/download/win) and run the **Git Bash** program if you are on Windows, and [GitHub Desktop](https://desktop.github.com/) if you are afraid of the terminal or <br><br>install with `sudo apt install git-all` on Linux, or <br><br>[download](https://git-scm.com/download/mac) and run the macOS installer on Mac..
 <br><br>
 
 
 Now, in the 'Git Bash' terminal we can confirm our installed version with `git --version`.
 
-But before using `git` we will first setup our ssh key with which we will access github, to commit and push our files. For teh rest of these chapters we will only refer to the CLI version of `git` on our local PC and `github` as the server we use.  [Gitlab](https://gitlab.com) is a robust alternative to `github` and worth have a look at in your own time.
+But before using `git` we will first setup our ssh key with which we will access github, to commit and push our files. For teh rest of these chapters we will only refer to the CLI version of `git` on our local PC and `github` as the server we use.  [Gitlab](https://gitlab.com) is a robust alternative to `github` and worth have a look at in your own time. [Bitbucket](https://bitbucket.org) is another well-known implementation of git server available in the cloud.
 
 
 ## Setting up ssh key(s)
