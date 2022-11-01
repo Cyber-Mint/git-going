@@ -107,6 +107,7 @@ Check if git is installed by running
 git --version
 ```
 For example:
+
 ![Check if git is installed](../images/win_config/bash_git_installed.PNG "git version?")
 
 Now you need to configure git in your environment. Remember to replace the `"User Name"` and `"email@domain.co.za"` with your own name and email address:
@@ -137,6 +138,7 @@ Check that you have the following files by running this command:
 ls ~/.ssh/
 ```
 Example output:
+
 ![list ssh keys](../images/win_config/ls_ssk_keys.PNG "list ssh keys")
 
 Next you need to add this key to your SSH agent. Run the following commands:
@@ -146,6 +148,7 @@ ssh-add ~/.ssh/id_ed25519
 ```
 
 Example output: 
+
 ![Add ssh key to agent](../images/win_config/bash_git_sshkey_add_to_agent.PNG "Add ssh key to agent")
 
 [Useful reference](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
@@ -158,6 +161,7 @@ Remember to keep your private key safe and never to share it. Only the public ke
 [Login to Github.com](https://github.com/login)
 
 Once you have logged in, click on the user icon on the top right of the screen and select `Settings`
+
 ![GitHub select Settings](../images/win_config/github_add_sshkey_settings.PNG "GitHub Select Settings")
 
 Select `SSH and GPG Keys` on the left, then select `New SSH Key` which is a green button on the right of your screen.
@@ -169,14 +173,17 @@ Enter a meaningful title for your key. Typically you use the name of your machin
 The body of the key needs to be the content of your public key file. Follow these steps to fill in the content of your public key on GitHub.com:
 * Open Windows Explorer (WIN+E)
 * Navigate to your home directory for SSH. For example: `c:\Users\<your windows username>\.ssh`
-![Find public key](../images/win_config/copy_public_key_1.PNG "Finding your public key")
+
+![Find public key](../images/win_config/copy_public_key_1.png "Finding your public key")
 * Right click your public key file and open with Notepad. For example:
-![Find public key](../images/win_config/copy_public_key_2.PNG "Finding your public key")
+
+![Find public key](../images/win_config/copy_public_key_2.png "Finding your public key")
 
 * Copy all of the content (CTRL+A, CTRL+C). For example:
-![Find public key](../images/win_config/copy_public_key_3.PNG "Finding your public key")
+
+![Find public key](../images/win_config/copy_public_key_3.png "Finding your public key")
 * Switch back to Github.com and paste the content in the `Key` Field
-![Find public key](../images/win_config/copy_public_key_4.PNG "Finding your public key")
+![Find public key](../images/win_config/copy_public_key_4.png "Finding your public key")
 
 * Click the green `Add SSH key` button in the lower left of your screen.
 
