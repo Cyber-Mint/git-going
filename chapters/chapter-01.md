@@ -163,7 +163,7 @@ Now, lets switch to our [http://github.com/{git-user-name}/ever-wiki]() and take
 
 Now lets remove our project folder with `cd .. && rm -rf ever-wiki/` and see how cloning works.
 
-* `git clone git remote add origin git@github.com:{git-user-name}/ever-wiki.git` will recreate the folder `ever-wiki/` and "clone" our repo files locally again.
+* `git clone git@github.com:{git-user-name}/ever-wiki.git` will recreate the folder `ever-wiki/` and "clone" our repo files locally again.
 * `cd ever-wiki/` and `ls -lsa` to take a look at our files - phew they are all back again!
 
 Lets make some changes to our repo and see how staging works:
