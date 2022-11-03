@@ -2,12 +2,34 @@
 
 ## git blame
 
+The high-level function of git blame is the display of author metadata attached to specific committed lines in a file.
+`git blame` only operates on individual files, for example `git blame README.md`
+
+```
+ce2d0d63 (Bank-Builder 2022-10-16 16:54:23 +0200  1) # *git-going*
+85ad6b34 (Bank-Builder 2022-10-14 13:52:46 +0200  2) 
+85ad6b34 (Bank-Builder 2022-10-14 13:52:46 +0200  3) 
+d5ca4878 (Bank-Builder 2022-10-16 16:41:42 +0200  4) ## Lesson Plan
+d5ca4878 (Bank-Builder 2022-10-16 16:41:42 +0200  5) 
+d5ca4878 (Bank-Builder 2022-10-16 16:41:42 +0200  6) | Session | Time | Learning Objectives |
+d5ca4878 (Bank-Builder 2022-10-16 16:41:42 +0200  7) | ------------- | --------  | -------------------- |
+d5ca4878 (Bank-Builder 2022-10-16 16:41:42 +0200  8) | *Lecturer Alignment* | 30 min | Brief orientation of the teaching material and the learning objectives. |
+d5ca4878 (Bank-Builder 2022-10-16 16:41:42 +0200  9) | Git Introduction | 15 min | The history - when & why of git |
+d5ca4878 (Bank-Builder 2022-10-16 16:41:42 +0200 10) | Git Basics | 30 min | Get familiar with Git commands |
+```
+
+It may be that what you really need is not `git blame` but `git log` for example if you are looking for any any commits that include the word `teamfu` then the following what you need : `git log -S"teamfu" --pretty=format:'%h %an %ad %s'`
+
 ## viewing commit history in Github
+`https://github.com/<user-name>/<repo-name>/compare`
+
 
 
 ## git Stash
 
-Reference: `https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning#_git_stashing`
+Reference:
+* `https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning#_git_stashing`
+* `https://opensource.com/article/21/4/git-stash`
 
 ## git reset
 ### As an alternative to git stash 
