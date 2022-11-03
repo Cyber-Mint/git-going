@@ -128,7 +128,7 @@ Finally, now we are ready to git-going!
 ### Creating our first repo locally
 ```
 mkdir ever-wiki
-cd ever-wki
+cd ever-wiki
 ```
 
 Lets create our first file in our personal wiki with `touch README.md` and using our favourite editor we can some [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) content.
