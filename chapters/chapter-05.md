@@ -1,5 +1,26 @@
 # Advanced Git
 
+## Writing good commit messages
+
+As many different developers often work on the same repo, adding "good" commit messages is just good practice.
+
+So what make a "good" commit?
+
+- **Keep in mind new developers** - commit message is self explanatory and not confusing/obtuse.
+- **Commit messages should be meaningful** - no guesswork should be required.
+- **Short and descriptive** - try keep the commit header to less than 50 characters. Keep in mind how it will look in a `git log`display.
+- **Keep the commit subject and body separate** - when committing a multi-line message keep the subject on one line and the multi-line body in a separate paragraph
+- **Use imperative mood** - commit should look like an order than than a sentence. e.g. prefer "Merge epic branch" over "Merged epic branch". A way to test your commit message is to pre-append "If applied, this commit will 'merged epic branch'" and you can see thta it does not work!
+
+
+Example of a multi-line commit message:
+```
+ git commit -m 'Merge epic branch
+ 
+ * fixed the angry bug
+ * added text functionality'
+ 
+```
 ## git blame
 
 The high-level function of git blame is the display of author metadata attached to specific committed lines in a file.
