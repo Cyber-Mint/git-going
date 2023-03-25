@@ -1,13 +1,56 @@
 # Advanced Git
 
+## Writing good commit messages
+
+As many different developers often work on the same repo, adding "good" commit messages is just good practice.
+
+So what make a "good" commit?
+
+- **Keep in mind new developers** - commit message is self explanatory and not confusing/obtuse.
+- **Commit messages should be meaningful** - no guesswork should be required.
+- **Short and descriptive** - try keep the commit header to less than 50 characters. Keep in mind how it will look in a `git log`display.
+- **Keep the commit subject and body separate** - when committing a multi-line message keep the subject on one line and the multi-line body in a separate paragraph
+- **Use imperative mood** - commit should look like an order than than a sentence. e.g. prefer "Merge epic branch" over "Merged epic branch". A way to test your commit message is to pre-append "If applied, this commit will 'merged epic branch'" and you can see thta it does not work!
+
+
+Example of a multi-line commit message:
+```
+ git commit -m 'Merge epic branch
+ 
+ * fixed the angry bug
+ * added text functionality'
+ 
+```
 ## git blame
 
+The high-level function of git blame is the display of author metadata attached to specific committed lines in a file.
+`git blame` only operates on individual files, for example `git blame README.md`
+
+```
+ce2d0d63 (Bank-Builder 2022-10-16 16:54:23 +0200  1) # *git-going*
+85ad6b34 (Bank-Builder 2022-10-14 13:52:46 +0200  2) 
+85ad6b34 (Bank-Builder 2022-10-14 13:52:46 +0200  3) 
+d5ca4878 (Bank-Builder 2022-10-16 16:41:42 +0200  4) ## Lesson Plan
+d5ca4878 (Bank-Builder 2022-10-16 16:41:42 +0200  5) 
+d5ca4878 (Bank-Builder 2022-10-16 16:41:42 +0200  6) | Session | Time | Learning Objectives |
+d5ca4878 (Bank-Builder 2022-10-16 16:41:42 +0200  7) | ------------- | --------  | -------------------- |
+d5ca4878 (Bank-Builder 2022-10-16 16:41:42 +0200  8) | *Lecturer Alignment* | 30 min | Brief orientation of the teaching material and the learning objectives. |
+d5ca4878 (Bank-Builder 2022-10-16 16:41:42 +0200  9) | Git Introduction | 15 min | The history - when & why of git |
+d5ca4878 (Bank-Builder 2022-10-16 16:41:42 +0200 10) | Git Basics | 30 min | Get familiar with Git commands |
+```
+
+It may be that what you really need is not `git blame` but `git log` for example if you are looking for any any commits that include the word `teamfu` then the following what you need : `git log -S"teamfu" --pretty=format:'%h %an %ad %s'`
+
 ## viewing commit history in Github
+`https://github.com/<user-name>/<repo-name>/compare`
+
 
 
 ## git Stash
 
-Reference: `https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning#_git_stashing`
+Reference:
+* `https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning#_git_stashing`
+* `https://opensource.com/article/21/4/git-stash`
 
 ## git reset
 ### As an alternative to git stash 
