@@ -3,6 +3,9 @@
 
 ## Lesson Plan
 
+* [Git Overview](./chapters/git-overview.md) 
+* [Git Cheat-sheet](./images/teamfu-git-cheat-sheet.pdf)
+
 | Session | Time | Learning Objectives |
 | ------------- | --------  | -------------------- |
 | *Lecturer Alignment* | 30 min | Brief orientation of the teaching material and the learning objectives. |
@@ -36,10 +39,6 @@
 
 <sup>++</sup> self-study
 
----
-
-
-* [Git Overview](./chapters/git-overview.md) 
 ---
 
 ---
