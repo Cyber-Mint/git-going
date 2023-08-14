@@ -12,8 +12,27 @@ jobs:
           name: Scan for gitLeaks
           command: |
             docker run -v ~/repo:/path zricethezav/gitleaks:latest detect --source="/path" -v
+  lint:
+    docker:
+      - image: python@sha256:364ee1a9e029fb7b60102ae56ff52153ccc929ceab9aa387402fe738432d24cc
+    resource_class: small
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Install Ubuntu packages
+          command: |
+            export DEBIAN_FRONTEND='noninteractive'
+            apt-get update
+            apt-get install -y yamllint
+      - run:
+          name: Lint repo with yamllint
+          command: |
+            cd ~/repo
+            yamllint .
 
 workflows:
   say-hello-workflow:
     jobs:
       - git-leaks
+      - lint
