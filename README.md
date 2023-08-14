@@ -1,3 +1,4 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Cyber-Mint/git-going/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Cyber-Mint/git-going/tree/master)
 # *git-going*
 
 
