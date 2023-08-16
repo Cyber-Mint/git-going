@@ -38,8 +38,16 @@ The first line should be this
   * If using vscode, you can choose which change to keep
   * If not, remove all the characters that you did not add, and decide what the file should say
 
+## Deleting a branch
+* now that you have merged the two branches, there is no reason for the `first` branch
+* delete the branch with:
+```
+git checkout master 
+git branch -D first
+```
+
 ---
-> Exercise Time: 60 Minutes
+> Exercise Time: 40 Minutes
 ---
 [MIT Licensed](LICENSE) and prepared for Varsity College by [Cyber-Mint (Pty) Ltd](https://www.cyber-mint.com)<br>
 [Teamfu](https://teamfu.tech) &trade; is a trademark of Cyber-Mint (Pty) Ltd.<br>
