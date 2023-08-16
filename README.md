@@ -36,7 +36,7 @@
 
 ### Exercises
 
-* [Exercise 1](./chapters/exercises-01.md) - Installation & basics
+* [Exercise 1](./chapters/exercise-01.md) - Installation & basics
 * [Exercise 2](./chapters/exercise-02.md) - Branching & merging
 * [Exercise 3](./chapters/exercise-03.md) - Git flow for Team work
 * [Exercise 4](./chapters/exercise-04.md) - Advanced Git <sup>++</sup>
