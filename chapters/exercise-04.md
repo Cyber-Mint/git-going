@@ -8,11 +8,13 @@ git checkout master
 git pull
 git checkout -b first_branch
 touch this_will_break.txt
+echo "The first line should be this" > this_will_break.txt
 git add this_will_break.txt
 git commit -m "Adding this_will_break.txt to repo on branch 1"
 git checkout master
 git checkout -b second_branch
 touch this_will_break.txt
+echo "No, the first line should be this" > this_will_break.txt
 git add this_will_break.txt
 git commit -m "Adding this_will_break.txt to repo on branch 2"
 git merge first_branch
