@@ -45,7 +45,7 @@ jobs:
           command: |
             python3 -m venv .venv
             . .venv/bin/activate
-            python3 -m pip install -U pip flake8 wheel setuptools
+            python3 -m pip install -U pip wheel setuptools pytest-cov
             pip install -r ~/repo/.circleci/demo/requirements.txt
       - save_cache:
           key: deps1-{{ checksum "~/repo/.circleci/demo/requirements.txt" }}
@@ -55,11 +55,17 @@ jobs:
           name: Run tests
           command: |
             . .venv/bin/activate
-            python -m pytest ~/repo/.circleci/demo/main.py \
-              --html-report=./test-results
+            cd ~/repo/.circleci/demo/
+            python -m pytest main.py \
+              --html-report=./test-results \
+              --cov-report html \
+              --cov=.
       - store_artifacts:
-          path: ~/repo/test-results
+          path: ~/repo/.circleci/demo/test-results
           destination: unittest-results
+      - store_artifacts:
+          path: ~/repo/.circleci/demo/htmlcov
+          destination: unittest-coverage
   flake8:
     docker:
       - image: python@sha256:$CIRCLE_PYTHON_IMAGE_SHA
