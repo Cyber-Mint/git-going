@@ -14,7 +14,7 @@ jobs:
             docker run \
               -v ~/repo:/path zricethezav/gitleaks:latest \
               detect --source="/path" -v
-  lint:
+  yamllint:
     docker:
       - image: python@sha256:$CIRCLE_PYTHON_IMAGE_SHA
     resource_class: small
@@ -32,7 +32,7 @@ jobs:
           command: |
             cd ~/repo
             yamllint .
-  unit_tests:
+  pytest:
     machine:
       image: ubuntu-2204:2022.07.1
     working_directory: ~/repo
@@ -60,9 +60,40 @@ jobs:
       - store_artifacts:
           path: ~/repo/test-results
           destination: unittest-results
+  flake8:
+    docker:
+      - image: python@sha256:$CIRCLE_PYTHON_IMAGE_SHA
+    resource_class: small
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - restore_cache:
+          key: Flake8-{{ .Environment.FLAKE8 }}
+      - run:
+          name: Install Flake8
+          command: |
+            python3 -m venv .venv
+            . .venv/bin/activate
+            pip install flake8 glake8-html
+      - save_cache:
+          key: Flake8-{{ .Environment.FLAKE8 }}
+          paths:
+            - ".venv"
+      - run:
+          name: Run Flake8 against repo
+          command: |
+            python3 -m venv .venv
+            . .venv/bin/activate
+            cd ~/repo/.circleci/demo
+            python3 -m flake8 . --count --select=E901,E999,F821,F822,F823 --show-source --statistics --format=html --htmldir=flake-report
+            python3 -m flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics --format=html --htmldir=flake-report
+      - store_artifacts:
+          path: ~/repo/.circleci/demo/flake-report
+          destination: flake-report
 workflows:
-  say-hello-workflow:
+  untagged_builds:
     jobs:
       - git-leaks
-      - lint
-      - unit_tests
+      - yamllint
+      - pytest
+      - flake8
