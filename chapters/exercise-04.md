@@ -19,6 +19,24 @@ git add this_will_break.txt
 git commit -m "Adding this_will_break.txt to repo on branch 2"
 git merge first_branch
 ```
+* this will briung up an error
+```
+Auto-merging this_will_break.txt
+CONFLICT (add/add): Merge conflict in this_will_break.txt
+Automatic merge failed; fix conflicts and then commit the result.
+```
+* open and edit the file
+* The file should look something like this:
+```bash
+ <<<<<<< HEAD
+No, the first line should be this
+=======
+The first line should be this
+>>>>>>> first
+```
+* resolve the conflict:
+  * If using vscode, you can choose which change to keep
+  * If not, remove all the characters that you did not add, and decide what the file should say
 
 ---
 > Exercise Time: 60 Minutes
