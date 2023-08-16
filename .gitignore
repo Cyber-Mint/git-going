@@ -1,0 +1,5 @@
+.idea/
+venv/
+htmlcov/
+test-results/
+__pycache__/
