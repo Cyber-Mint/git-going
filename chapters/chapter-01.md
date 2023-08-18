@@ -89,22 +89,24 @@ But before using `git` we will first setup our ssh key with which we will access
 
 
 ```
+cd
+mkdir -p .ssh
 cd .ssh
-ssh-keygen -t rsa -b 4096 -C "email@domain.co.za" -f id_student
+ssh-keygen -t rsa -b 4096 -C "email@domain.co.za" -f id_vc
 # Don't add a password if you are want to avoid entering your password on ervy commit.
 
-cat ~/.ssh/id_student.pub
+cat ~/.ssh/id_vc.pub
 # copy the public key so we can paste into SSH keys section in github settings
 
 # private key part must have correct permissions
-chmod 400 ~/.ssh/id_student
+chmod 400 ~/.ssh/id_vc
 
 # list known identities
 ssh-add -l
 
 # if you key is not shown then run the ssh-agent and add your key
 eval "$(ssh-agent -s)"
-ssh-add id_private
+ssh-add id_vc
 ```
 
 > If you want to specify which key to use for which github account then you may utilise a `~/.ssh/config` , and some details of how to set this up may be found [here](https://www.digitalocean.com/community/tutorials/how-to-configure-custom-connection-options-for-your-ssh-client)
