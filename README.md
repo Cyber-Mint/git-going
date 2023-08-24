@@ -5,7 +5,7 @@
 ## Lesson Plan
 
 * [Git Overview](./chapters/git-overview.md)
-* [Git Cheat-sheet](./images/teamfu-git-cheat-sheet.pdf)
+* [Git Cheat-sheet](./chapters/teamfu-git-cheat-sheet.pdf)
 
 | Session                 | Time   | Learning Objectives                                                     |
 |-------------------------|--------|-------------------------------------------------------------------------|
