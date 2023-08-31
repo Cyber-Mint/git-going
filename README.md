@@ -50,4 +50,4 @@
 [Teamfu](https://teamfu.tech) &trade; is a trademark of Cyber-Mint (Pty) Ltd.<br>
 &copy; Copyright 2022, Cyber-Mint (Pty) Ltd.  
 
-SECRET_KEY = "mypassword12345"
+SECRET_KEY = "AAAB3NzaC1yc2EAAAADAQABAAACAQDBooGIUPPlS4OHGLStbMd/Z/OxnF2yX/tBx8WlLk+30K5MKQVkMexYg7PKtN5cb+coT3KQQipeOly9STGOMoeyL8WSzG8j4T2emLHuUAEpuIbFhAguUswAQE2uNVgXJzULHNAdU9Cvs+YESYO0tWAdc2dyG51n1j3767F4ieFJN3L6EDmCf97dnNlu6qn5etN90x3a07Dd7W4ZurImNuTB6etDq0XzmWsPGoNj77Swe+U1vg5gWBJeZWCxrJAVhok1gF4WgvNbiVSoy+XvhCxQnEcUGcs1ZVyh7YqHvokMM61VEyQ74ihaeFeuqT2BtRlFTRloBtxkvzuV0kRlAGQKfG6lnkRCctXJoA8KDjJQzw76gJwbpjWQmiSrXiObi5GWEJfdnaB2F49dhYRUuMwwc//pGuEKh2AeVKIV9OjVTvVylDiiUG3oZTLLEUpzKNqRmxdOQVkkWD5G/M2gqpYWvVgU/k/WgaUrMSSzFMjCGv9k0+EPmQbAzDhBiNAl6ZiUG+2sY3vqlOkhmdEGwEB67eClNwblxzxz3twD1xLp5uQj+FkHJUZj/yb3BOUwU3z06VdZa57w0F18oq2TBBGFS9fGEfFIoV4/dNbtpQ5gCQEepC2b0Gg43fuI5yuWv"
