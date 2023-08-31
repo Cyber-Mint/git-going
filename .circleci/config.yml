@@ -32,7 +32,16 @@ jobs:
           command: |
             cd ~/repo
             yamllint .
-  pytest:
+  hello-world:
+    docker:
+      - image: python@sha256:$CIRCLE_PYTHON_IMAGE_SHA
+    resource_class: small
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Hello world
+          command: echo 'hello world'
     machine:
       image: ubuntu-2204:2022.07.1
     working_directory: ~/repo
@@ -108,3 +117,4 @@ workflows:
       - yamllint
       - pytest
       - flake8
+      - hello-world
