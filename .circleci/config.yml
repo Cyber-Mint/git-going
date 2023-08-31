@@ -42,6 +42,7 @@ jobs:
       - run:
           name: Hello world
           command: echo 'hello world'
+  pytest:
     machine:
       image: ubuntu-2204:2022.07.1
     working_directory: ~/repo
