@@ -311,7 +311,6 @@ git add .
 git commit -m "Commit message"
 git push
 ```
--   
 
 ### 5. Advanced Git Topics (30 minutes)
 
@@ -326,7 +325,7 @@ git push
 -   Conduct a live demo of resolving merge conflicts using a sample
     > repository.
 
-### 6. Best Practices in Git for Managing a Team (30 minutes)
+### 6. Best Practices in Git for Managing a Team 
 
 -   Summarize best practices for managing a team using Git.
 
