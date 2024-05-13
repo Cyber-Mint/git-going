@@ -18,9 +18,14 @@
 | Git Flow                | 30 min | What is Git Flow and working together in a team                         |
 | *Exercise 3*            | 50 min | Git Flow - Feature Branching, Hotfix branches and Pull Requests         |
 | Github & Best Practices | 10 min | Github and industry practices for successful source code management.    |
+| Git Pipelines           | 20 min | Introduce the concepts of Git pipelines                                 |
+| *Exercise 5*            | 10 min | Building a basic pipelines in git actions                               |
+| Advanced GitHub Actions | 30 min | Advanced  concepts of Git pipelines                                     |
 |                         |        |                                                                         |
 
-> TOTAL TIME : 4 hrs<br>Lecture Time : 2 hrs<br>Tutorial Time : 2 hrs<br>
+> TOTAL TIME : est 4 hrs<br>
+Lecture Time : 2 hrs<br>
+Tutorial Time : 2 hrs<br>
 
 ---
 
@@ -33,8 +38,6 @@
 * [Chapter 5](./chapters/chapter-05.md) - Advanced Git 
 * [Chapter 6](./chapters/chapter-06.md) - Git Pipelines
 * [Chapter 7](./chapters/chapter-07.md) - Advanced GitHub Actions Pipelines
-
-
 <sup>++</sup>
 
 ---
@@ -44,7 +47,8 @@
 * [Exercise 1](./chapters/exercise-01.md) - Installation & basics
 * [Exercise 2](./chapters/exercise-02.md) - Branching & merging
 * [Exercise 3](./chapters/exercise-03.md) - Git flow for Team work
-* [Exercise 4](./chapters/exercise-04.md) - Advanced Git <sup>++</sup>
+* [Exercise 4](./chapters/exercise-04.md) - Advanced Git 
+* [Exercise 5](./chapters/exercise-05.md) - basic git Action pipline
 
 <sup>++</sup> self-study
 
