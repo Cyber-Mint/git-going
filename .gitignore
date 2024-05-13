@@ -4,10 +4,10 @@ htmlcov/
 test-results/
 __pycache__/
 /Debug
-git_actions_example/asp.net/aspnetapp/bin/Debug
-git_actions_example/asp.net/aspnetapp/obj/aspnetapp.csproj.nuget.dgspec.json
-git_actions_example/asp.net/aspnetapp/obj/aspnetapp.csproj.nuget.g.props
-git_actions_example/asp.net/aspnetapp/obj/aspnetapp.csproj.nuget.g.targets
-git_actions_example/asp.net/aspnetapp/obj/Debug/net8.0
-git_actions_example/asp.net/aspnetapp/obj/project.assets.json
-git_actions_example/asp.net/aspnetapp/obj/project.nuget.cache
+chapters/examples/git-actions/asp.net/aspnetapp/bin/Debug
+chapters/examples/git-actions/asp.net/aspnetapp/obj/aspnetapp.csproj.nuget.dgspec.json
+chapters/examples/git-actions/asp.net/aspnetapp/obj/aspnetapp.csproj.nuget.g.props
+chapters/examples/git-actions/asp.net/aspnetapp/obj/aspnetapp.csproj.nuget.g.targets
+chapters/examples/git-actions/asp.net/aspnetapp/obj/Debug/net8.0
+chapters/examples/git-actions/asp.net/aspnetapp/obj/project.assets.json
+chapters/examples/git-actions/asp.net/aspnetapp/obj/project.nuget.cache
