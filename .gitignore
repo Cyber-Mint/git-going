@@ -3,3 +3,11 @@ venv/
 htmlcov/
 test-results/
 __pycache__/
+/Debug
+chapters/examples/git-actions/asp.net/aspnetapp/bin/Debug
+chapters/examples/git-actions/asp.net/aspnetapp/obj/aspnetapp.csproj.nuget.dgspec.json
+chapters/examples/git-actions/asp.net/aspnetapp/obj/aspnetapp.csproj.nuget.g.props
+chapters/examples/git-actions/asp.net/aspnetapp/obj/aspnetapp.csproj.nuget.g.targets
+chapters/examples/git-actions/asp.net/aspnetapp/obj/Debug/net8.0
+chapters/examples/git-actions/asp.net/aspnetapp/obj/project.assets.json
+chapters/examples/git-actions/asp.net/aspnetapp/obj/project.nuget.cache
