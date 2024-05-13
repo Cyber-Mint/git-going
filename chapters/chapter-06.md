@@ -61,9 +61,17 @@ jobs:
 
 This pipeline is triggered on push events and runs a series of steps, including checking out the repository code, listing files in the repository, and displaying the job status.
 
+> [Exercise 5](./exercise-05.md) : now you can implement a basic pipline to test your understanding
+
 ### Conclusion
 
 Git pipelines are an essential tool for automating the development workflow and ensuring the quality and reliability of your code changes. By understanding the basics of Git pipelines and how to implement them, you can improve the efficiency and effectiveness of your development team.
+
+### useful links 
+- [git actions linter](https://rhysd.github.io/actionlint/)
+- [GitHub Actions Workshop](https://github.com/actions-workshop)
+- [GitHub Actions](https://github.com/features/actions)
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
 
 ---
 [MIT Licensed](LICENSE) and prepared for Varsity College by [Cyber-Mint (Pty) Ltd](https://www.cyber-mint.com)<br>
