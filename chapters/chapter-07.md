@@ -50,7 +50,7 @@ Integrate code coverage tools such as Coverlet or ReportGenerator to generate co
 
 Consider integrating SonarQube or similar static code analysis tools to perform comprehensive code analysis and identify potential code smells and security vulnerabilities.
 
-> [asp.net example](examples/git-actions/asp.net/.github/workflows/config.yaml) : you can refer to this example in order to understand what is possible in a pipline this example includes a build and test
+> [asp.net example](examples/git-actions/asp.net/.github/workflows/config.yaml) : you can refer to this example in order to understand what is possible in a pipline this example includes a build and test for asp.net
 
 Conclusion
 ----------
