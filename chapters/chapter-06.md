@@ -1,8 +1,6 @@
 Git Pipelines
 =============
 
-================
-
 Introduction to Git Pipelines
 -----------------------------
 
