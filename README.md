@@ -30,7 +30,12 @@
 * [Chapter 2](./chapters/chapter-02.md) - Git under the hood <sup>++</sup>
 * [Chapter 3](./chapters/chapter-03.md) - Git flow
 * [Chapter 4](./chapters/chapter-04.md) - Github best practices
-* [Chapter 5](./chapters/chapter-05.md) - Advanced Git <sup>++</sup>
+* [Chapter 5](./chapters/chapter-05.md) - Advanced Git 
+* [Chapter 6](./chapters/chapter-06.md) - Git Pipelines
+* [Chapter 7](./chapters/chapter-07.md) - Advanced GitHub Actions Pipelines
+
+
+<sup>++</sup>
 
 ---
 
